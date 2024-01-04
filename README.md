@@ -33,16 +33,18 @@ To run the app locally, follow these steps:
 4. Run the app: `npm start`
 
 ## Acknowledgments:
-![Untitled1](https://github.com/khatiainanashvili/entertainmentApp/assets/118260235/164c4aee-0d91-44b8-af40-8b92841fb7cf)
-![Untitled2](https://github.com/khatiainanashvili/entertainmentApp/assets/118260235/d82e53a6-7cf7-415f-993a-f9ed422d8863)
-![Untitled3](https://github.com/khatiainanashvili/entertainmentApp/assets/118260235/bfedb367-41d6-46ba-8697-7b40c81ce443)
-![Untitled4](https://github.com/khatiainanashvili/entertainmentApp/assets/118260235/59e6e03b-d49a-4f67-a1a5-2e0ed5bbe5dc)
-![Untitled5](https://github.com/khatiainanashvili/entertainmentApp/assets/118260235/24ab547c-855b-4c35-bdbd-8e551e7937be)
+
 
 This app was created as part of a learning journey in web development using React and Firebase.
 
 Feel free to explore, bookmark your favorite content, and enjoy the world of entertainment!
 
+
+![Untitled1](https://github.com/khatiainanashvili/entertainmentApp/assets/118260235/986cce01-2bf6-4a52-b080-2b89a8f1c631)
+![Untitled2](https://github.com/khatiainanashvili/entertainmentApp/assets/118260235/2cc92042-5607-40f2-ae99-2148dd9f9b7d)
+![Untitled3](https://github.com/khatiainanashvili/entertainmentApp/assets/118260235/8bc7ea48-379b-4f65-9672-9d40892fa214)
+![Untitled4](https://github.com/khatiainanashvili/entertainmentApp/assets/118260235/9ff053d5-df4f-48e9-bfd2-9655cd94de53)
+![Untitled5](https://github.com/khatiainanashvili/entertainmentApp/assets/118260235/9a3c0fb8-5c56-48f1-bfeb-5c817044ee8e)
 
 ---
 

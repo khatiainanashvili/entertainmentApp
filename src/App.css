@@ -389,9 +389,6 @@ color: #fff;
 /* card container ends */
 
 @media screen and (min-width: 375px){
-  .main {
-    width: 370px; 
-  }
   .card {
     margin: 30px 10px;
     width: 156px;

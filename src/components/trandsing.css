@@ -1,0 +1,210 @@
+.tranding-container {
+    display: flex ;
+    width: 320px;
+    margin-right: 0;
+    padding-right: 0;
+}
+.tranding-container  .card { 
+margin: 20px 10px 50px;
+width: 240px;
+border-radius: 8px;
+flex-shrink: 0;
+}
+
+.tranding-container .film-info {
+    position: absolute;
+    top: 70%;
+    left: 4%;
+    z-index: 110;
+  }
+
+  .tranding-container  .card-image {
+    width: 240px;
+    height: 140px;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  .tranding-container .card-image::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    min-height:100%;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.427);
+    top: 0%;
+    left: 0px;
+    z-index: 100;
+  }
+
+  .smySwiper {
+    width: 100%;
+    height: 100%;
+   
+  }
+  .tranding h2 {
+    width:  98%;
+    margin: 0;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     width:  256px !important;
+  }
+  
+  .swiper-scrollbar .swiper-scrollbar-horizontal {
+     transition-duration: 150ms !important;
+  }
+ 
+  .swiper-scrollbar-drag {
+    transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;
+  }
+  .swiper-slide:not(:nth-child(-n+5)) {
+    display: none !important;
+  }
+
+
+  @media screen and (min-width: 375px){
+    .tranding-container {
+      width: 370px; 
+      
+  }
+  }
+  
+  @media screen and (min-width: 425px) {
+    .tranding-container {
+    margin-left: 16px;
+    margin-bottom: 50px;
+    width: 399px;
+  }
+  .tranding-container .card
+   { 
+    margin: 0px 16px;
+    width: 240px;
+    height: 140px !important;
+    }
+    .tranding-container .card-image {
+    width: 240px;;
+    height: 100%!important;
+    object-fit: contain;
+    }
+    .tranding-container .poster-image {
+      height: 100%;
+      object-fit: cover;
+    }
+    .tranding-container .card-image::before {
+      height: 100%;
+      width: 100%;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+  .tranding-container {
+    width: 760px;  
+  }
+
+  .tranding-container .card
+   { 
+    margin: 0px 16px;
+    width: 470px;
+    height: 230px !important;
+    }
+    .tranding-container .card-image {
+    width: 470px;
+    height: 230px !important;
+    object-fit: contain;
+    }
+    .tranding-container .poster-image {
+      height: 230px;
+      object-fit: cover;
+    }
+    .swiper-slide {
+      width:  470px !important;
+      height: 230px !important;
+      margin-right: 16px;
+      margin-bottom: 39px;
+    }
+
+    .tranding-container .card-image::before {
+      height: 100%;
+      width: 100%;
+    }
+    .tranding-container .film-info  {
+      top: 80%;
+    }
+    h2 {
+      font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+  .tranding-container {
+    width: 950px;  
+  }
+
+  .tranding-container .card
+   { 
+    margin: 0px 16px;
+    width: 470px;;
+    height: 230px !important;
+    }
+    .tranding-container .card-image {
+    width: 470px;;
+    height: 230px !important;
+    object-fit: contain;
+    }
+    .tranding-container .poster-image {
+    
+      height: 230px;
+      object-fit: cover;
+    }
+    .swiper-slide {
+      width: 470px!important;
+      height: 230px !important;
+      margin-right: 16px;
+      margin-bottom: 39px;
+    }
+
+    .tranding-container .card-image::before {
+      height: 100%;
+      width: 100%;
+    }
+ 
+}
+
+
+@media screen and (min-width: 1240px) {
+ 
+
+  .tranding-container {
+    width: 100%;  
+    max-width: calc(470px * 5);
+    margin: 0;
+    padding: 0;
+    justify-content: flex-start; }
+
+ .tranding {
+  margin: 0;
+ }
+ h2 {
+  margin-left: 2%;
+ }
+
+  }
+
+  @media screen and (min-width: 1440px) {
+    .tranding-container {
+      
+      
+      max-width: 97vw;
+      width: 90vw;
+    }
+    
+    }

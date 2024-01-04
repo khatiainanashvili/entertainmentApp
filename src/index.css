@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Outfit");
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #10141E;
+  font-family: "Outfit";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

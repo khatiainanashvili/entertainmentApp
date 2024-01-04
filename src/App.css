@@ -112,9 +112,10 @@ h2 {
 .container {
   display: flex;
   flex-direction: column;
-justify-content:center;
+  justify-content:center;
   width: 100%;
   overflow: hidden;
+  margin: auto;
 }
 .app{
 

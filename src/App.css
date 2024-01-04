@@ -106,7 +106,7 @@ h2 {
   align-items: center;
   justify-content: center;
   grid-area: main;
-  width: 320px; ;
+  width: 100%;
 }
 
 .container {

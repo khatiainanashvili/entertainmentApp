@@ -108,7 +108,7 @@ function App() {
                   />
 
                   <Route
-                    path="/bookmarked"
+                    path={authenticated === "true" ? "/bookmarked" : "/"}
                     element={
                       <div className="container">
                         <h2>Bookmarked </h2>
@@ -127,7 +127,7 @@ function App() {
                   />
 
                   <Route
-                    path="/series"
+                    path={authenticated === "true" ? "/series" : "/"}
                     element={
                       <div className="container">
                         <h2>TV series</h2>
@@ -141,7 +141,7 @@ function App() {
                   />
 
                   <Route
-                    path="/movies"
+                    path={authenticated === "true" ? "/movies" : "/"}
                     element={
                       <div className="container">
                         <h2>Movies</h2>

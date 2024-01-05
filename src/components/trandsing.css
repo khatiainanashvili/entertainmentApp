@@ -171,7 +171,9 @@ flex-shrink: 0;
       margin-right: 16px;
       margin-bottom: 39px;
     }
- .swiper-wrapper{
+ .swiper-wrapper,
+.swiper-scrollbar
+    {
   margin-left: 3.5% !important;
 
 }

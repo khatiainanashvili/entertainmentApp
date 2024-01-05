@@ -184,7 +184,7 @@ flex-shrink: 0;
  
 
   .tranding-container {
-    width: 99%;  
+    width: 98%;  
     max-width: calc(470px * 5);
     margin: 0;
     padding: 0;
@@ -201,10 +201,9 @@ flex-shrink: 0;
 
   @media screen and (min-width: 1440px) {
     .tranding-container {
-      
-      
-      max-width: 96vw;
-      width: 89vw;
+
+      max-width: 95vw;
+      width: 87vw;
     }
     
     }

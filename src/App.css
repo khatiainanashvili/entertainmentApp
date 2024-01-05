@@ -114,7 +114,6 @@ h2 {
   flex-direction: column;
   justify-content:center;
   width: 100%;
-  overflow-x: hidden;
   margin: auto;
 }
 .app{

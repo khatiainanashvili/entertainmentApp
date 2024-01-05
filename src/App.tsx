@@ -161,7 +161,7 @@ function App() {
 
                   <Route
                     path="*"
-                    element={<h1 style={{color: white;}}>404 error</h1>}
+                    element={<h1 style={{color: "white";}}>404 error</h1>}
                   />
                 </Routes>
               </div>
